@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container header h2{
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-weight: 900;
+}
+.container header .CalculateScore p{
+    font-weight: 700;
+}
+.container header .CalculateScore p span{
+    color: #FF0000;
+}
+.container header .content .imageChoice{
+    background: #FFFFFF1A;
+    padding: 10px 0;
+    margin: 4px 0;
+}
+.container header .content .imageChoice div{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1 solid #000000E6;
+    background: #00000033;
+}
+.container header .content .imageChoice div img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 0;
+    border: none;
+}
+.btnUserPlay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.btnUserPlay button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #66009FF2;
+    color: #fff;
+    font-size: 17px;
+}
+.btnUserPlay button:hover{
+    background: #A400FFF2;
+}
+.container .you{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    color: #0049FF;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .container{
+        width: 98%;
+    }
+}
